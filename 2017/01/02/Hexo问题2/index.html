@@ -29,7 +29,7 @@
 
 
 
-  <meta name="keywords" content="Hexo,Mala" />
+  <meta name="keywords" content="others," />
 
 
 
@@ -38,19 +38,40 @@
   <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.5.1" />
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="description" content="hexo问题2
+添加主题后出现
+tags categories路由出现404
+tags categories页面出现，但没有内容
+tag标签计数与实际标签数有出入
+
+解决方法虽然主题以及根目录的_config文件配置正确，但因为该模块，系统不自动生成，故需要自行建立分页目录categories，其它分页同理；
+hexo new page categories
+新建目录后，会在跟目录下的source">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2017/02/18/hello-world/index.html">
+<meta property="og:title" content="Hexo问题2">
+<meta property="og:url" content="http://yoursite.com/2017/01/02/Hexo问题2/index.html">
 <meta property="og:site_name" content="一条奔腾的大河">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
-<meta property="og:updated_time" content="2017-02-18T00:28:58.519Z">
+<meta property="og:description" content="hexo问题2
+添加主题后出现
+tags categories路由出现404
+tags categories页面出现，但没有内容
+tag标签计数与实际标签数有出入
+
+解决方法虽然主题以及根目录的_config文件配置正确，但因为该模块，系统不自动生成，故需要自行建立分页目录categories，其它分页同理；
+hexo new page categories
+新建目录后，会在跟目录下的source">
+<meta property="og:updated_time" content="2017-02-18T23:26:57.396Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="twitter:title" content="Hexo问题2">
+<meta name="twitter:description" content="hexo问题2
+添加主题后出现
+tags categories路由出现404
+tags categories页面出现，但没有内容
+tag标签计数与实际标签数有出入
+
+解决方法虽然主题以及根目录的_config文件配置正确，但因为该模块，系统不自动生成，故需要自行建立分页目录categories，其它分页同理；
+hexo new page categories
+新建目录后，会在跟目录下的source">
 
 
 <script type="text/javascript" id="hexo.configuration">
@@ -60,7 +81,7 @@ Quick">
   };
 </script>
 
-  <title> Hello World | 一条奔腾的大河 </title>
+  <title> Hexo问题2 | 一条奔腾的大河 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -88,7 +109,7 @@ Quick">
       <span class="logo">
         <i class="icon-next-logo"></i>
       </span>
-      <span class="site-title"></span>
+      <span class="site-title">Blog Chen</span>
   </a>
   <span class="logo-line-after"><i></i></span>
 </h1>
@@ -310,7 +331,7 @@ Quick">
           
           
             
-              Hello World
+              Hexo问题2
             
           
         </h1>
@@ -319,11 +340,26 @@ Quick">
       <div class="post-meta">
         <span class="post-time">
           Posted on
-          <time itemprop="dateCreated" datetime="2017-02-18T08:28:58+08:00" content="2017-02-18">
-            2017-02-18
+          <time itemprop="dateCreated" datetime="2017-01-02T23:20:53+08:00" content="2017-01-02">
+            2017-01-02
           </time>
         </span>
 
+        
+          <span class="post-category" >
+            &nbsp; | &nbsp; In
+            
+              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                <a href="/categories/hexo/" itemprop="url" rel="index">
+                  <span itemprop="name">hexo</span>
+                </a>
+              </span>
+
+              
+              
+
+            
+          </span>
         
 
         
@@ -338,22 +374,48 @@ Quick">
       
 
       
-        <span itemprop="articleBody"><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-</span>
+        <span itemprop="articleBody"><h2 id="hexo问题2"><a href="#hexo问题2" class="headerlink" title="hexo问题2"></a>hexo问题2</h2><hr>
+<h3 id="添加主题后出现"><a href="#添加主题后出现" class="headerlink" title="添加主题后出现"></a>添加主题后出现</h3><ul>
+<li>tags categories路由出现404</li>
+<li>tags categories页面出现，但没有内容</li>
+<li>tag标签计数与实际标签数有出入</li>
+</ul>
+<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>虽然主题以及根目录的_config文件配置正确，但因为该模块，系统不自动生成，故需要自行建立分页目录categories，其它分页同理；</p>
+<pre><code>hexo new page categories
+</code></pre><p>新建目录后，会在跟目录下的source文加夹新建categories/index.md文件，配置该文件，解决分页内容不显示的问题 </p>
+<pre><code>title: 分类
+date: 2015-12-02 12:44:45
+type: &quot;categories&quot;
+--- 
+</code></pre><p>删除博文有可能导致tags多于实际标签，需要清楚缓存</p>
+<pre><code>hexo clean 
+</code></pre></span>
       
     </div>
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/others/" rel="tag">#others</a>
+          
+        </div>
+      
 
+      
+        <div class="post-nav">
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/01/05/2/" rel="prev">Mongoose练习中的问题</a>
+            
+          </div>
+
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/01/01/Hexo安装问题/" rel="next">Hexo安装问题</a>
+            
+          </div>
+        </div>
       
 
       
@@ -427,71 +489,6 @@ Quick">
 
 
 
-    
-
-    <div class ="post-donate">
-        <div id="donate_board" class="donate_bar center">
-              <a id="btn_donate" class="btn_donate" href="javascript:;" title="打赏">赏</a>
-              <span id="donate_txt" class="donate_txt">
-                   
-                        仅仅是一个功能
-                   
-              </span>
-            <br>
-        </div>  
-  
-        <div id="donate_guide" class="donate_bar center hidden">
-            <!--
-            
-                <a href="http://o7keinrz4.bkt.clouddn.com/alipay.jpg" title="支付宝打赏" class="fancybox" rel="article0" 
-                    style="float:left;margin-left:25%;margin-right:10px;">
-                    <img src="http://o7keinrz4.bkt.clouddn.com/alipay.jpg" title="" height="164px" width="164px">
-                </a> 
-              
-
-            
-                <a href="http://o7keinrz4.bkt.clouddn.com/wechat.jpg" title="微信打赏" class="fancybox" rel="article0"
-                    style="margin-right:30%">
-                    <img src="http://o7keinrz4.bkt.clouddn.com/wechat.jpg" title="" height="164px" width="164px">
-                </a>
-            
-            -->
-            <table>
-                <tr>
-                    <td>
-                        
-                            <a href="http://o7keinrz4.bkt.clouddn.com/alipay.jpg" title="支付宝打赏" class="fancybox" rel="article0" 
-                                style="float:left;margin-left:25%;margin-right:10px;">
-                                <img src="http://o7keinrz4.bkt.clouddn.com/alipay.jpg" title="" height="164px" width="164px">
-                            </a> 
-                         
-                    </td>
-                    <td>
-                        
-                            <a href="http://o7keinrz4.bkt.clouddn.com/wechat.jpg" title="微信打赏" class="fancybox" rel="article0"
-                                style="margin-right:30%">
-                                <img src="http://o7keinrz4.bkt.clouddn.com/wechat.jpg" title="" height="164px" width="164px">
-                            </a>
-                        
-                    </td>
-                </tr>
-            </table>
-
-        </div>
-
-        <script type="text/javascript">
-            document.getElementById('btn_donate').onclick = function() {
-                $('#donate_board').addClass('hidden');
-                // $('#donate_guide').removeClass('hidden');
-                $('#donate_guide').show(2000);
-            }
-
-        </script>
-    </div>
-
-    
-
-
       
     </div>
 
@@ -558,21 +555,21 @@ Quick">
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">1</span>
+              <span class="site-state-item-count">3</span>
               <span class="site-state-item-name">posts</span>
             </a>
           </div>
 
           <div class="site-state-item site-state-categories">
             <a href="/categories">
-              <span class="site-state-item-count">0</span>
+              <span class="site-state-item-count">2</span>
               <span class="site-state-item-name">categories</span>
               </a>
           </div>
 
           <div class="site-state-item site-state-tags">
             <a href="/tags">
-              <span class="site-state-item-count">0</span>
+              <span class="site-state-item-count">2</span>
               <span class="site-state-item-name">tags</span>
               </a>
           </div>
@@ -600,7 +597,7 @@ Quick">
           <div class="post-toc">
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo问题2"><span class="nav-number">1.</span> <span class="nav-text">hexo问题2</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#添加主题后出现"><span class="nav-number">1.1.</span> <span class="nav-text">添加主题后出现</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#解决方法"><span class="nav-number">1.2.</span> <span class="nav-text">解决方法</span></a></li></ol></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator"></div>
