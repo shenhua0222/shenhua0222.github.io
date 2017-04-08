@@ -38,13 +38,33 @@
   <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.5.1" />
 
 
+<meta name="description" content="本文转自 https://segmentfault.com/a/1190000002545307
+第一部分：DOM对象
+1.1只读属性所谓的只读属性指的是DOM节点的固有属性，该属性只能通过js去获取而不能通过js去设置，而且获取的值是只有数字并不带单位的（px,em等），如下：
+1）clientWidth和clientHeightcss:
+&amp;lt;style&amp;gt;
+    .one{">
 <meta property="og:type" content="article">
 <meta property="og:title" content="JavaScript中的各种宽高以及位置总结">
 <meta property="og:url" content="http://yoursite.com/2017/02/07/JavaScript中的各种宽高以及位置总结/index.html">
 <meta property="og:site_name" content="一条奔腾的大河">
-<meta property="og:updated_time" content="2017-04-08T13:37:45.412Z">
+<meta property="og:description" content="本文转自 https://segmentfault.com/a/1190000002545307
+第一部分：DOM对象
+1.1只读属性所谓的只读属性指的是DOM节点的固有属性，该属性只能通过js去获取而不能通过js去设置，而且获取的值是只有数字并不带单位的（px,em等），如下：
+1）clientWidth和clientHeightcss:
+&amp;lt;style&amp;gt;
+    .one{">
+<meta property="og:image" content="http://yoursite.com/!https://github.com/shenhua0222/shenhua0222.github.io/tree/master/images/2017-02-07/1.png">
+<meta property="og:updated_time" content="2017-04-08T15:29:58.750Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="JavaScript中的各种宽高以及位置总结">
+<meta name="twitter:description" content="本文转自 https://segmentfault.com/a/1190000002545307
+第一部分：DOM对象
+1.1只读属性所谓的只读属性指的是DOM节点的固有属性，该属性只能通过js去获取而不能通过js去设置，而且获取的值是只有数字并不带单位的（px,em等），如下：
+1）clientWidth和clientHeightcss:
+&amp;lt;style&amp;gt;
+    .one{">
+<meta name="twitter:image" content="http://yoursite.com/!https://github.com/shenhua0222/shenhua0222.github.io/tree/master/images/2017-02-07/1.png">
 
 
 <script type="text/javascript" id="hexo.configuration">
@@ -347,7 +367,52 @@
       
 
       
-        <span itemprop="articleBody"></span>
+        <span itemprop="articleBody"><h4 id="本文转自-https-segmentfault-com-a-1190000002545307"><a href="#本文转自-https-segmentfault-com-a-1190000002545307" class="headerlink" title="本文转自 https://segmentfault.com/a/1190000002545307"></a>本文转自 <a href="https://segmentfault.com/a/1190000002545307" target="_blank" rel="external">https://segmentfault.com/a/1190000002545307</a></h4><hr>
+<h3 id="第一部分：DOM对象"><a href="#第一部分：DOM对象" class="headerlink" title="第一部分：DOM对象"></a>第一部分：DOM对象</h3><hr>
+<h4 id="1-1只读属性"><a href="#1-1只读属性" class="headerlink" title="1.1只读属性"></a>1.1只读属性</h4><p>所谓的只读属性指的是DOM节点的固有属性，该属性只能通过js去获取而不能通过js去设置，而且获取的值是只有数字并不带单位的（px,em等），如下：</p>
+<h5 id="1）clientWidth和clientHeight"><a href="#1）clientWidth和clientHeight" class="headerlink" title="1）clientWidth和clientHeight"></a>1）clientWidth和clientHeight</h5><p>css:</p>
+<pre><code>&lt;style&gt;
+    .one{
+        width: 200px;
+        height: 200px;
+        background: red;
+        border: 1px solid #000000;
+        overflow: auto;
+    }
+&lt;/style&gt;
+</code></pre><p>html</p>
+<pre><code>&lt;body&gt;
+&lt;div class=&quot;one&quot;&gt;
+    javascript高级应用&lt;br&gt;
+    javascript高级应用&lt;br&gt;
+    javascript高级应用&lt;br&gt;
+    javascript高级应用&lt;br&gt;
+    javascript高级应用&lt;br&gt;
+    javascript高级应用&lt;br&gt;
+    javascript高级应用&lt;br&gt;
+    javascript高级应用&lt;br&gt;
+    javascript高级应用&lt;br&gt;
+    javascript高级应用&lt;br&gt;
+    javascript高级应用&lt;br&gt;
+    javascript高级应用&lt;br&gt;
+    javascript高级应用&lt;br&gt;
+    javascript高级应用&lt;br&gt;
+    javascript高级应用&lt;br&gt;
+    javascript高级应用&lt;br&gt;
+    javascript高级应用&lt;br&gt;
+    javascript高级应用&lt;br&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+</code></pre><p>js</p>
+<pre><code>&lt;script&gt;
+    window.onload=function(){
+        var oDiv=document.getElementsByTagName(&apos;div&apos;)[0];
+        console.log(oDiv.clientWidth+&quot;:&quot;+oDiv.clientHeight);
+    }
+&lt;/script&gt;
+</code></pre><p>结果</p>
+<p><img src="!https://github.com/shenhua0222/shenhua0222.github.io/tree/master/images/2017-02-07/1.png" alt="enter image description here"></p>
+</span>
       
     </div>
 
@@ -553,7 +618,7 @@
           <div class="post-toc">
             
             
-              <p class="post-toc-empty">This post does not have a Table Of Contents</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#本文转自-https-segmentfault-com-a-1190000002545307"><span class="nav-number">1.</span> <span class="nav-text">本文转自 https://segmentfault.com/a/1190000002545307</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第一部分：DOM对象"><span class="nav-number"></span> <span class="nav-text">第一部分：DOM对象</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-1只读属性"><span class="nav-number">1.</span> <span class="nav-text">1.1只读属性</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1）clientWidth和clientHeight"><span class="nav-number">1.1.</span> <span class="nav-text">1）clientWidth和clientHeight</span></a></li></ol></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator"></div>
